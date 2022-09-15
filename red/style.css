@@ -91,3 +91,30 @@ h1{
    justify-content: center;
    align-items: center;
 }
+
+/* OUR TEAM */
+
+.ourteam {
+    background-color: #ececec;
+}
+
+.teampic {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border:solid;
+    border-width: 2px;
+    border-color: darkred;
+    padding: 5px;
+    justify-content: center;
+}
+
+.cardred {
+    color: darkred;
+}
+
+.cardblack {
+    font-size: x-small;
+    font-style: italic;
+    font-family: 'Rajdhani', light;
+}
