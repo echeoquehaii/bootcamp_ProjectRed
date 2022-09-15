@@ -4,7 +4,7 @@
 
 /* ICONE */
 .fa-solid {
-    color: brown;
+    color: darkred;
 
 }
 /* Scritte */
@@ -19,37 +19,52 @@
     font-size: large;
 }
 h5 {
-    color: brown;
+    color: darkred;
 }
+
+/* NAVBAR */
+
+.logo {
+    height: 50px;
+    width: 100px;
+}
+
+.nav-links {
+    list-style-type: none;
+    font-family: 'Rajdhani', light;
+    font-size: small;
+}
+
 
 /* HEADER */
 
 header {
    width: 100%;
-   height: 90vh;
-
-   background-image: url("./media/switzerland-862870_1920.jpg");
+   min-height: 50vh;    
+   background-image: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0.2)), url("./media/switzerland-862870_1920.jpg");
    background-repeat: no-repeat;
-   background-size: 100%;
+   background-size: cover;
    background-position: center;
    display: flex;
    justify-content: center;
    align-items: center;
-   
 }
+
 
 h1{
    z-index: 9999;
-   font-size: 10vh;
+   font-size: 9vh;
+   font-weight: bold;
    position: absolute;
    background-color: transparent;
    text-transform: uppercase;
-   letter-spacing:2ch;
+   text-align: center;
+   letter-spacing:1ch;
+   color: darkred;
 }
 
 .png {
    width: 100%;
-   height: 90vh;
    z-index: 900;
    background-color: transparent;
    position: relative;
@@ -57,5 +72,9 @@ h1{
    margin-left: -40px;
    margin-bottom: -100px;
    display: flex;
-   justify-content: left;
+   background-repeat: no-repeat;
+   background-size: 100%;
+   background-position: center;
+   justify-content: center;
+   align-items: center;
 }
