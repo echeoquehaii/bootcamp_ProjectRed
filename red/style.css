@@ -164,3 +164,25 @@ footer{
     padding: 5%;
     padding-bottom: 3%;
 }
+
+.pallino::before {
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    background-color: white;
+    content: "";
+    z-index: 999;
+    left: -25px;
+    border: solid darkred;
+    border-width: 2px;
+}
+
+.pallino {
+    position: relative;
+}
+
+.timeline {
+    border-color: darkred !important;
+    border-width: 4px !important;
+}
