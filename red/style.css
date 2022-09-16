@@ -72,27 +72,6 @@ h1{
    align-items: center;
 }
 
-<<<<<<< HEAD
-/* MAIN */
-
-/* ICONE */
-.fa-solid {
-    color: darkred;
-
-}
-/* Scritte */
-.rigatre{
-    font-family: 'Rajdhani', light;
-    font-size: small;
-}
-
-.rigauno {
-    font-family: 'Rajdhani', light;
-    font-style: oblique;
-    font-size: large;
-}
-h5 {
-=======
 /* OUR TEAM */
 
 .ourteam {
@@ -140,14 +119,10 @@ h5 {
 }
 
 .benefititle {
->>>>>>> 38d691ec25b4df1eeebc5d8a2cd75c99fb3bcfe7
     color: darkred;
 }
 
 
-<<<<<<< HEAD
-/* SECTION/BUTTON */
-=======
 .benefitext {
     font-size: small;
     word-spacing: 0.4ch;
@@ -169,5 +144,3 @@ footer{
     padding: 5%;
     padding-bottom: 3%;
 }
-
->>>>>>> 38d691ec25b4df1eeebc5d8a2cd75c99fb3bcfe7
