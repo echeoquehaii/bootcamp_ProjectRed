@@ -52,7 +52,7 @@ h5 {
 
 header {
    width: 100%;
-   min-height: 50vh;    
+   min-height: 10vh;    
    background-image: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0.2)), url("./media/switzerland-862870_1920.jpg");
    background-repeat: no-repeat;
    background-size: cover;
@@ -90,6 +90,13 @@ h1{
    background-position: center;
    justify-content: center;
    align-items: center;
+}
+
+/* OUR TIMELINE */
+
+.alberi2 {
+    margin-left: 180px;
+    max-width: 70%;  
 }
 
 /* OUR TEAM */
@@ -185,4 +192,8 @@ footer{
 .timeline {
     border-color: darkred !important;
     border-width: 4px !important;
+}
+
+.testi {
+    font-family: 'Rajdhani', light;
 }
