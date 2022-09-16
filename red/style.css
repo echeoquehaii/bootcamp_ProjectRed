@@ -22,7 +22,41 @@ main {
     font-family: 'Rajdhani', light;
     font-style: oblique;
     font-size: large;
+    position: relative;
+    text-align: center;
+
 }
+
+/* .rigauno::before {
+    content: "“";
+    font-size: 50px;
+    font-family: 'Rajdhani', light;
+    font-weight: bold;
+    color: darkred;
+    position:absolute;
+    bottom: 25px;
+    left: -13px;
+}
+
+.rigauno::after {
+    content: "„";
+    font-size: 50px;
+    font-family: 'Rajdhani', light;
+    font-weight: bold;
+    color: darkred;
+    position: absolute;
+    top: 25px;
+    right: 199px;
+}
+ */
+
+.virgolette {
+    font-family: 'Rajdhani', light;
+    font-weight: bold;
+    color: darkred;
+    font-size: xx-large;
+}
+
 h5 {
     color: darkred;
 }
