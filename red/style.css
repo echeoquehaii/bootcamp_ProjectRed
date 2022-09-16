@@ -7,6 +7,26 @@ main {
 
 }
 
+/* ICONE */
+.fa-solid {
+    color: darkred;
+
+}
+/* Scritte */
+.rigatre{
+    font-family: 'Rajdhani', light;
+    font-size: small;
+}
+
+.rigauno {
+    font-family: 'Rajdhani', light;
+    font-style: oblique;
+    font-size: large;
+}
+h5 {
+    color: darkred;
+}
+
 /* NAVBAR */
 
 .nav-all {
@@ -144,5 +164,3 @@ footer{
     padding: 5%;
     padding-bottom: 3%;
 }
-
-CIAO
