@@ -27,6 +27,9 @@ main {
 
 }
 
+.linearossa {
+    color: blue;
+}
 /* .rigauno::before {
     content: "“";
     font-size: 50px;
@@ -133,6 +136,7 @@ h1{
     max-width: 70%;
 }
 
+
 /* OUR TEAM */
 
 .ourteam {
@@ -199,12 +203,13 @@ h1{
 
 }
 
-footer{
+.sfondorosso{
     background-color: darkred;
     color: white;
-    padding: 5%;
-    padding-bottom: 3%;
+    
+    
 }
+
 
 .pallino::before {
     position: absolute;
@@ -220,6 +225,24 @@ footer{
 }
 
 .pallino {
+    position: relative;
+}
+
+.pallino2::before {
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    background-color: white;
+    content: "";
+    z-index: 999;
+    left: 40%;
+    top: -12px;
+    border: solid darkred;
+    border-width: 2px;
+}
+
+.pallino2 {
     position: relative;
 }
 
@@ -244,6 +267,10 @@ footer{
     top: 300px;;
     left: 900px;
     font-family: 'Rajdhani', bold;
+}
+
+.positionl {
+    margin-left: 90px;
 }
 
 
