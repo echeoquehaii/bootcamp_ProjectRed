@@ -168,7 +168,7 @@ h1{
 }
 
 .fa-brands {
-    font-size: x-small;
+    font-size: small;
 }
 
 /* OUR BENEFIT */
@@ -189,9 +189,14 @@ h1{
 
 
 .benefitext {
-    font-size: small;
-    word-spacing: 0.4ch;
-}
+    font-family: 'Rajdhani', light;
+    font-size: x-small;
+    font-style: italic;
+    font-weight: 520;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    }
 
 #boscorosso {
     display: flex;
@@ -279,4 +284,7 @@ h1{
     margin-left: 90px;
 }
 
+.positionr {
+    margin-right: 90px;
+}
 
